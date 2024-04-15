@@ -1,0 +1,53 @@
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;  /* Set the default font */
+  margin: 0;  /* Remove default margin from body */
+  padding: 0;  /* Remove default padding from body */
+}
+
+header {
+  background-color: #f1f1f1;  /* Light gray background for header */
+  padding: 20px;   /* Add padding to header */
+}
+
+h1 {
+  text-align: center;  /* Center align the title */
+  margin-left: 150px; /* To make title center proportionate as side nav is there */
+}
+
+p {
+  text-align: center; /* Center align the text */
+  margin-left: 150px; /* So text does not get covered by side nav */
+  margin-right: 10px; /* So scroll bar does not cover text */
+}
+
+
+/* Image styles */
+img {
+  display: block;  /* Make the image take up full width */
+  margin: 0 auto;  /* Center the image horizontally */
+}
+
+/* Navigation styles */
+.sidenav {
+  height: 100vh;  /* Set sidenav height to 100% viewport height */
+  width: 150px;   /* Set sidenav width */
+  position: fixed;  /* Fix sidenav to the left side */
+  z-index: 1;  /* Overlap content over sidenav */
+  top: 0;  /* Start sidenav from the top */
+  left: 0;  /* Position sidenav to the left */
+  background-color: #ddd;  /* Light gray background for sidenav */
+  overflow-x: hidden;  /* Hide horizontal scrollbar */
+  padding: 20px 0;  /* Add padding to top and bottom */
+}
+
+.sidenav a {
+  display: block;  /* Make navigation links take full width */
+  color: black;  /* Black text color */
+  text-decoration: none;  /* Remove underline from links */
+  padding: 8px 8px 8px 32px;  /* Add padding to links */
+}
+
+.sidenav a:hover {
+  background-color: #ccc;  /* Light gray background on hover */
+}
